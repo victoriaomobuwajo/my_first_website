@@ -1,3 +1,39 @@
 html,body{height:100%;}
 .carousel,.item,.active{height:100%;}
 .carousel-inner{height:100%;}
+
+.navbar.navbar-custom {
+  border: none;
+  background: white;
+  border-top: 3px solid #001f36;
+  margin-bottom: 0px;
+  border-radius: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar.navbar-custom .navbar-brand img {
+  position: relative;
+  display: block;
+  z-index: 1000;
+}
+.navbar.navbar-custom .navbar-nav > li > a {
+  color: white;
+}
+@media (max-width: 767px) {
+  .navbar.navbar-custom .navbar-right > li,
+  .navbar.navbar-custom .navbar-right .dropdown-menu > li {
+    text-align: right;
+  }
+}
+
+.centerbutton {
+    margin: 0 auto;
+    background-color: transparent;
+    text-align: center;
+    position:absolute;
+    z-index:50;
+    top:50%;
+    left:50%;
+    margin-top:-23px;
+    margin-left:-50px;
+}
